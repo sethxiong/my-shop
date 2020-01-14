@@ -4,6 +4,6 @@
     <title>Title</title>
 </head>
 <body>
-首页1
+首页
 </body>
 </html>
