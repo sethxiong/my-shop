@@ -92,7 +92,7 @@ public class ContentController extends AbstractBaseController<TbContent,TbConten
      */
     @Override
     @ResponseBody
-    @RequestMapping(value = "page", method = RequestMethod.POST)
+    @RequestMapping(value = "page", method = RequestMethod.GET)
     public PageInfo<TbContent> page(HttpServletRequest request, TbContent tbContent) {
         // 调用抽象类实现的page()
         return super.page(request, tbContent);
